@@ -1,0 +1,68 @@
+.body {
+    display: flex;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logn-contain {
+    justify-self: center;
+    display: grid;
+    height: 50;
+    aspect-ratio: 4 / 3;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(223, 9, 243, 0.219);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-style: solid;
+    padding-left: 30px;
+    border-width: 1px;
+}
+.fields-contain {
+    width: 100%;
+}
+.signup-btn {
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    border-color: rgb(118, 7, 146);
+    border: 1px solid;
+    border-radius: 30px;
+    height: 40px;
+    width: 95px;
+    margin-top: 20px;
+}
+.signup-btn:hover {
+    color: rgb(39, 39, 39);
+}
+#lstname-contain {
+    width: 49%;
+}
+#fstname-contain {
+    width: 49%;
+}
+
+label {
+    position: relative;
+    font-size: 9px;
+    top: 7px;
+    left: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgba(127, 255, 212, 0.219);
+}
